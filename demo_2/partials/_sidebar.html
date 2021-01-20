@@ -1,29 +1,33 @@
-<nav class="sidebar">
+<body class="sidebar-open">
+	<div class="main-wrapper">
+
+		<!-- partial:partials/_sidebar.html -->
+		<nav class="sidebar">
       <div class="sidebar-header">
         <a href="#" class="sidebar-brand">
-          Noble<span>UI</span>
+          ZeusBoost<span>.io</span>
         </a>
-        <div class="sidebar-toggler not-active">
+        <div class="sidebar-toggler active">
           <span></span>
           <span></span>
           <span></span>
         </div>
       </div>
-      <div class="sidebar-body">
+      <div class="sidebar-body ps">
         <ul class="nav">
           <li class="nav-item nav-category">Main</li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a href="dashboard-one.html" class="nav-link">
-              <i class="link-icon" data-feather="box"></i>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-box link-icon"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
               <span class="link-title">Dashboard</span>
             </a>
           </li>
           <li class="nav-item nav-category">web apps</li>
           <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#emails" role="button" aria-expanded="false" aria-controls="emails">
-              <i class="link-icon" data-feather="mail"></i>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail link-icon"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
               <span class="link-title">Email</span>
-              <i class="link-arrow" data-feather="chevron-down"></i>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down link-arrow"><polyline points="6 9 12 15 18 9"></polyline></svg>
             </a>
             <div class="collapse" id="emails">
               <ul class="nav sub-menu">
@@ -41,24 +45,24 @@
           </li>
           <li class="nav-item">
             <a href="pages/apps/chat.html" class="nav-link">
-              <i class="link-icon" data-feather="message-square"></i>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-square link-icon"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
               <span class="link-title">Chat</span>
             </a>
           </li>
           <li class="nav-item">
             <a href="pages/apps/calendar.html" class="nav-link">
-              <i class="link-icon" data-feather="calendar"></i>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar link-icon"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
               <span class="link-title">Calendar</span>
             </a>
           </li>
-          <li class="nav-item nav-category">Components</li>
+          <li class="nav-item nav-category">Shop</li>
           <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#uiComponents" role="button" aria-expanded="false" aria-controls="uiComponents">
-              <i class="link-icon" data-feather="feather"></i>
-              <span class="link-title">UI Kit</span>
-              <i class="link-arrow" data-feather="chevron-down"></i>
-            </a>
-            <div class="collapse" id="uiComponents">
+            <a class="nav-link collapsed" data-toggle="collapse" href="#uiComponents" role="button" aria-expanded="false" aria-controls="uiComponents">
+              
+              <span class="link-title">Tools &amp; Hacks</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down link-arrow"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-hash link-icon"><line x1="4" y1="9" x2="20" y2="9"></line><line x1="4" y1="15" x2="20" y2="15"></line><line x1="10" y1="3" x2="8" y2="21"></line><line x1="16" y1="3" x2="14" y2="21"></line></svg></a>
+            <div class="collapse" id="uiComponents" style="">
               <ul class="nav sub-menu">
                 <li class="nav-item">
                   <a href="pages/ui-components/alerts.html" class="nav-link">Alerts</a>
@@ -127,12 +131,12 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#advancedUI" role="button" aria-expanded="false" aria-controls="advancedUI">
-              <i class="link-icon" data-feather="anchor"></i>
-              <span class="link-title">Advanced UI</span>
-              <i class="link-arrow" data-feather="chevron-down"></i>
+            <a class="nav-link collapsed" data-toggle="collapse" href="#advancedUI" role="button" aria-expanded="false" aria-controls="advancedUI">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-hash link-icon"><line x1="4" y1="9" x2="20" y2="9"></line><line x1="4" y1="15" x2="20" y2="15"></line><line x1="10" y1="3" x2="8" y2="21"></line><line x1="16" y1="3" x2="14" y2="21"></line></svg>
+              <span class="link-title">Boosting Services</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down link-arrow"><polyline points="6 9 12 15 18 9"></polyline></svg>
             </a>
-            <div class="collapse" id="advancedUI">
+            <div class="collapse" id="advancedUI" style="">
               <ul class="nav sub-menu">
                 <li class="nav-item">
                   <a href="pages/advanced-ui/cropper.html" class="nav-link">Cropper</a>
@@ -148,9 +152,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#forms" role="button" aria-expanded="false" aria-controls="forms">
-              <i class="link-icon" data-feather="inbox"></i>
-              <span class="link-title">Forms</span>
-              <i class="link-arrow" data-feather="chevron-down"></i>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-inbox link-icon"><polyline points="22 12 16 12 14 15 10 15 8 12 2 12"></polyline><path d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"></path></svg>
+              <span class="link-title">Subscribe</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down link-arrow"><polyline points="6 9 12 15 18 9"></polyline></svg>
             </a>
             <div class="collapse" id="forms">
               <ul class="nav sub-menu">
@@ -169,78 +173,15 @@
               </ul>
             </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link"  data-toggle="collapse" href="#charts" role="button" aria-expanded="false" aria-controls="charts">
-              <i class="link-icon" data-feather="pie-chart"></i>
-              <span class="link-title">Charts</span>
-              <i class="link-arrow" data-feather="chevron-down"></i>
-            </a>
-            <div class="collapse" id="charts">
-              <ul class="nav sub-menu">
-                <li class="nav-item">
-                  <a href="pages/charts/apex.html" class="nav-link">Apex</a>
-                </li>
-                <li class="nav-item">
-                  <a href="pages/charts/chartjs.html" class="nav-link">ChartJs</a>
-                </li>
-                <li class="nav-item">
-                  <a href="pages/charts/flot.html" class="nav-link">Flot</a>
-                </li>
-                <li class="nav-item">
-                  <a href="pages/charts/morrisjs.html" class="nav-link">Morris</a>
-                </li>
-                <li class="nav-item">
-                  <a href="pages/charts/peity.html" class="nav-link">Peity</a>
-                </li>
-                <li class="nav-item">
-                  <a href="pages/charts/sparkline.html" class="nav-link">Sparkline</a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#tables" role="button" aria-expanded="false" aria-controls="tables">
-              <i class="link-icon" data-feather="layout"></i>
-              <span class="link-title">Table</span>
-              <i class="link-arrow" data-feather="chevron-down"></i>
-            </a>
-            <div class="collapse" id="tables">
-              <ul class="nav sub-menu">
-                <li class="nav-item">
-                  <a href="pages/tables/basic-table.html" class="nav-link">Basic Tables</a>
-                </li>
-                <li class="nav-item">
-                  <a href="pages/tables/data-table.html" class="nav-link">Data Table</a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#icons" role="button" aria-expanded="false" aria-controls="icons">
-              <i class="link-icon" data-feather="smile"></i>
-              <span class="link-title">Icons</span>
-              <i class="link-arrow" data-feather="chevron-down"></i>
-            </a>
-            <div class="collapse" id="icons">
-              <ul class="nav sub-menu">
-                <li class="nav-item">
-                  <a href="pages/icons/feather-icons.html" class="nav-link">Feather Icons</a>
-                </li>
-                <li class="nav-item">
-                  <a href="pages/icons/flag-icons.html" class="nav-link">Flag Icons</a>
-                </li>
-                <li class="nav-item">
-                  <a href="pages/icons/mdi-icons.html" class="nav-link">Mdi Icons</a>
-                </li>
-              </ul>
-            </div>
-          </li>
+          
+          
+          
           <li class="nav-item nav-category">Pages</li>
           <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#general-pages" role="button" aria-expanded="false" aria-controls="general-pages">
-              <i class="link-icon" data-feather="book"></i>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-book link-icon"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
               <span class="link-title">Special pages</span>
-              <i class="link-arrow" data-feather="chevron-down"></i>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down link-arrow"><polyline points="6 9 12 15 18 9"></polyline></svg>
             </a>
             <div class="collapse" id="general-pages">
               <ul class="nav sub-menu">
@@ -267,9 +208,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#authPages" role="button" aria-expanded="false" aria-controls="authPages">
-              <i class="link-icon" data-feather="unlock"></i>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-unlock link-icon"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 9.9-1"></path></svg>
               <span class="link-title">Authentication</span>
-              <i class="link-arrow" data-feather="chevron-down"></i>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down link-arrow"><polyline points="6 9 12 15 18 9"></polyline></svg>
             </a>
             <div class="collapse" id="authPages">
               <ul class="nav sub-menu">
@@ -284,9 +225,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#errorPages" role="button" aria-expanded="false" aria-controls="errorPages">
-              <i class="link-icon" data-feather="cloud-off"></i>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-cloud-off link-icon"><path d="M22.61 16.95A5 5 0 0 0 18 10h-1.26a8 8 0 0 0-7.05-6M5 5a8 8 0 0 0 4 15h9a5 5 0 0 0 1.7-.3"></path><line x1="1" y1="1" x2="23" y2="23"></line></svg>
               <span class="link-title">Error</span>
-              <i class="link-arrow" data-feather="chevron-down"></i>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down link-arrow"><polyline points="6 9 12 15 18 9"></polyline></svg>
             </a>
             <div class="collapse" id="errorPages">
               <ul class="nav sub-menu">
@@ -302,27 +243,450 @@
           <li class="nav-item nav-category">Docs</li>
           <li class="nav-item">
             <a href="https://www.nobleui.com/html/documentation/docs.html" target="_blank" class="nav-link">
-              <i class="link-icon" data-feather="hash"></i>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-hash link-icon"><line x1="4" y1="9" x2="20" y2="9"></line><line x1="4" y1="15" x2="20" y2="15"></line><line x1="10" y1="3" x2="8" y2="21"></line><line x1="16" y1="3" x2="14" y2="21"></line></svg>
               <span class="link-title">Documentation</span>
             </a>
           </li>
         </ul>
-      </div>
+      <div class="ps__rail-x" style="left: 0px; bottom: 0px;"><div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps__rail-y" style="top: 0px; right: 0px;"><div class="ps__thumb-y" tabindex="0" style="top: 0px; height: 0px;"></div></div><div class="ps__rail-x" style="left: 0px; bottom: 0px;"><div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps__rail-y" style="top: 0px; right: 0px;"><div class="ps__thumb-y" tabindex="0" style="top: 0px; height: 0px;"></div></div><div class="ps__rail-x" style="left: 0px; bottom: 0px;"><div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps__rail-y" style="top: 0px; right: 0px;"><div class="ps__thumb-y" tabindex="0" style="top: 0px; height: 0px;"></div></div><div class="ps__rail-x" style="left: 0px; bottom: 0px;"><div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps__rail-y" style="top: 0px; right: 0px;"><div class="ps__thumb-y" tabindex="0" style="top: 0px; height: 0px;"></div></div></div>
     </nav>
     <nav class="settings-sidebar">
       <div class="sidebar-body">
         <a href="#" class="settings-sidebar-toggler">
-          <i data-feather="settings"></i>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-settings"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
         </a>
         <div class="theme-wrapper">
           <h6 class="text-muted mb-2">Light Theme:</h6>
-          <a class="theme-item" href="demo_1/dashboard-one.html">
-            <img src="assets/images/screenshots/light.jpg" alt="light theme">
+          <a class="theme-item" href="../demo_1/dashboard-one.html">
+            <img src="../assets/images/screenshots/light.jpg" alt="light theme">
           </a>
           <h6 class="text-muted mb-2">Dark Theme:</h6>
-          <a class="theme-item active" href="demo_2/dashboard-one.html">
-            <img src="assets/images/screenshots/dark.jpg" alt="light theme">
+          <a class="theme-item active" href="../demo_2/dashboard-one.html">
+            <img src="../assets/images/screenshots/dark.jpg" alt="light theme">
           </a>
         </div>
       </div>
     </nav>
+		<!-- partial -->
+	
+		<div class="page-wrapper">
+					
+			<!-- partial:partials/_navbar.html -->
+			<nav class="navbar">
+				<a href="#" class="sidebar-toggler">
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+				</a>
+				<div class="navbar-content">
+					<form class="search-form">
+						<div class="input-group">
+							<div class="input-group-prepend">
+								<div class="input-group-text">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+								</div>
+							</div>
+							<input type="text" class="form-control" id="navbarForm" placeholder="Search here...">
+						</div>
+					</form>
+					<ul class="navbar-nav">
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<i class="flag-icon flag-icon-us mt-1" title="us"></i> <span class="font-weight-medium ml-1 mr-1 d-none d-md-inline-block">English</span>
+							</a>
+							<div class="dropdown-menu" aria-labelledby="languageDropdown">
+                <a href="javascript:;" class="dropdown-item py-2"><i class="flag-icon flag-icon-us" title="us" id="us"></i> <span class="ml-1"> English </span></a>
+                <a href="javascript:;" class="dropdown-item py-2"><i class="flag-icon flag-icon-fr" title="fr" id="fr"></i> <span class="ml-1"> French </span></a>
+                <a href="javascript:;" class="dropdown-item py-2"><i class="flag-icon flag-icon-de" title="de" id="de"></i> <span class="ml-1"> German </span></a>
+                <a href="javascript:;" class="dropdown-item py-2"><i class="flag-icon flag-icon-pt" title="pt" id="pt"></i> <span class="ml-1"> Portuguese </span></a>
+                <a href="javascript:;" class="dropdown-item py-2"><i class="flag-icon flag-icon-es" title="es" id="es"></i> <span class="ml-1"> Spanish </span></a>
+							</div>
+            </li>
+						<li class="nav-item dropdown nav-apps">
+							<a class="nav-link dropdown-toggle" href="#" id="appsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-grid"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+							</a>
+							<div class="dropdown-menu" aria-labelledby="appsDropdown">
+								<div class="dropdown-header d-flex align-items-center justify-content-between">
+									<p class="mb-0 font-weight-medium">Web Apps</p>
+									<a href="javascript:;" class="text-muted">Edit</a>
+								</div>
+								<div class="dropdown-body">
+									<div class="d-flex align-items-center apps">
+										<a href="pages/apps/chat.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-square icon-lg"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg><p>Chat</p></a>
+										<a href="pages/apps/calendar.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar icon-lg"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg><p>Calendar</p></a>
+										<a href="pages/email/inbox.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail icon-lg"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg><p>Email</p></a>
+										<a href="pages/general/profile.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram icon-lg"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg><p>Profile</p></a>
+									</div>
+								</div>
+								<div class="dropdown-footer d-flex align-items-center justify-content-center">
+									<a href="javascript:;">View all</a>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item dropdown nav-messages">
+							<a class="nav-link dropdown-toggle" href="#" id="messageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+							</a>
+							<div class="dropdown-menu" aria-labelledby="messageDropdown">
+								<div class="dropdown-header d-flex align-items-center justify-content-between">
+									<p class="mb-0 font-weight-medium">9 New Messages</p>
+									<a href="javascript:;" class="text-muted">Clear all</a>
+								</div>
+								<div class="dropdown-body">
+									<a href="javascript:;" class="dropdown-item">
+										<div class="figure">
+											<img src="https://via.placeholder.com/30x30" alt="userr">
+										</div>
+										<div class="content">
+											<div class="d-flex justify-content-between align-items-center">
+												<p>Leonardo Payne</p>
+												<p class="sub-text text-muted">2 min ago</p>
+											</div>	
+											<p class="sub-text text-muted">Project status</p>
+										</div>
+									</a>
+									<a href="javascript:;" class="dropdown-item">
+										<div class="figure">
+											<img src="https://via.placeholder.com/30x30" alt="userr">
+										</div>
+										<div class="content">
+											<div class="d-flex justify-content-between align-items-center">
+												<p>Carl Henson</p>
+												<p class="sub-text text-muted">30 min ago</p>
+											</div>	
+											<p class="sub-text text-muted">Client meeting</p>
+										</div>
+									</a>
+									<a href="javascript:;" class="dropdown-item">
+										<div class="figure">
+											<img src="https://via.placeholder.com/30x30" alt="userr">
+										</div>
+										<div class="content">
+											<div class="d-flex justify-content-between align-items-center">
+												<p>Jensen Combs</p>												
+												<p class="sub-text text-muted">1 hrs ago</p>
+											</div>	
+											<p class="sub-text text-muted">Project updates</p>
+										</div>
+									</a>
+									<a href="javascript:;" class="dropdown-item">
+										<div class="figure">
+											<img src="https://via.placeholder.com/30x30" alt="userr">
+										</div>
+										<div class="content">
+											<div class="d-flex justify-content-between align-items-center">
+												<p>Amiah Burton</p>
+												<p class="sub-text text-muted">2 hrs ago</p>
+											</div>
+											<p class="sub-text text-muted">Project deadline</p>
+										</div>
+									</a>
+									<a href="javascript:;" class="dropdown-item">
+										<div class="figure">
+											<img src="https://via.placeholder.com/30x30" alt="userr">
+										</div>
+										<div class="content">
+											<div class="d-flex justify-content-between align-items-center">
+												<p>Yaretzi Mayo</p>
+												<p class="sub-text text-muted">5 hr ago</p>
+											</div>
+											<p class="sub-text text-muted">New record</p>
+										</div>
+									</a>
+								</div>
+								<div class="dropdown-footer d-flex align-items-center justify-content-center">
+									<a href="javascript:;">View all</a>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item dropdown nav-notifications">
+							<a class="nav-link dropdown-toggle" href="#" id="notificationDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
+								<div class="indicator">
+									<div class="circle"></div>
+								</div>
+							</a>
+							<div class="dropdown-menu" aria-labelledby="notificationDropdown">
+								<div class="dropdown-header d-flex align-items-center justify-content-between">
+									<p class="mb-0 font-weight-medium">6 New Notifications</p>
+									<a href="javascript:;" class="text-muted">Clear all</a>
+								</div>
+								<div class="dropdown-body">
+									<a href="javascript:;" class="dropdown-item">
+										<div class="icon">
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user-plus"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><line x1="20" y1="8" x2="20" y2="14"></line><line x1="23" y1="11" x2="17" y2="11"></line></svg>
+										</div>
+										<div class="content">
+											<p>New customer registered</p>
+											<p class="sub-text text-muted">2 sec ago</p>
+										</div>
+									</a>
+									<a href="javascript:;" class="dropdown-item">
+										<div class="icon">
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-gift"><polyline points="20 12 20 22 4 22 4 12"></polyline><rect x="2" y="7" width="20" height="5"></rect><line x1="12" y1="22" x2="12" y2="7"></line><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"></path><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"></path></svg>
+										</div>
+										<div class="content">
+											<p>New Order Recieved</p>
+											<p class="sub-text text-muted">30 min ago</p>
+										</div>
+									</a>
+									<a href="javascript:;" class="dropdown-item">
+										<div class="icon">
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-circle"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+										</div>
+										<div class="content">
+											<p>Server Limit Reached!</p>
+											<p class="sub-text text-muted">1 hrs ago</p>
+										</div>
+									</a>
+									<a href="javascript:;" class="dropdown-item">
+										<div class="icon">
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-layers"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+										</div>
+										<div class="content">
+											<p>Apps are ready for update</p>
+											<p class="sub-text text-muted">5 hrs ago</p>
+										</div>
+									</a>
+									<a href="javascript:;" class="dropdown-item">
+										<div class="icon">
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-download"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+										</div>
+										<div class="content">
+											<p>Download completed</p>
+											<p class="sub-text text-muted">6 hrs ago</p>
+										</div>
+									</a>
+								</div>
+								<div class="dropdown-footer d-flex align-items-center justify-content-center">
+									<a href="javascript:;">View all</a>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item dropdown nav-profile">
+							<a class="nav-link dropdown-toggle" href="#" id="profileDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<img src="https://via.placeholder.com/30x30" alt="profile">
+							</a>
+							<div class="dropdown-menu" aria-labelledby="profileDropdown">
+								<div class="dropdown-header d-flex flex-column align-items-center">
+									<div class="figure mb-3">
+										<img src="https://via.placeholder.com/80x80" alt="">
+									</div>
+									<div class="info text-center">
+										<p class="name font-weight-bold mb-0">Amiah Burton</p>
+										<p class="email text-muted mb-3">amiahburton@gmail.com</p>
+									</div>
+								</div>
+								<div class="dropdown-body">
+									<ul class="profile-nav p-0 pt-3">
+										<li class="nav-item">
+											<a href="pages/general/profile.html" class="nav-link">
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+												<span>Profile</span>
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="javascript:;" class="nav-link">
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
+												<span>Edit Profile</span>
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="javascript:;" class="nav-link">
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-repeat"><polyline points="17 1 21 5 17 9"></polyline><path d="M3 11V9a4 4 0 0 1 4-4h14"></path><polyline points="7 23 3 19 7 15"></polyline><path d="M21 13v2a4 4 0 0 1-4 4H3"></path></svg>
+												<span>Switch User</span>
+											</a>
+										</li>
+										<li class="nav-item">
+											<a href="javascript:;" class="nav-link">
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-log-out"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path><polyline points="16 17 21 12 16 7"></polyline><line x1="21" y1="12" x2="9" y2="12"></line></svg>
+												<span>Log Out</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<!-- partial -->
+
+			<div class="page-content">
+
+        <div class="d-flex justify-content-between align-items-center flex-wrap grid-margin">
+          <div>
+            <h4 class="mb-3 mb-md-0">Welcome to Dashboard</h4>
+          </div>
+          <div class="d-flex align-items-center flex-wrap text-nowrap">
+            <div class="input-group date datepicker dashboard-date mr-2 mb-2 mb-md-0 d-md-none d-xl-flex" id="dashboardDate">
+              <span class="input-group-addon bg-transparent"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar  text-primary"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg></span>
+              <input type="text" class="form-control">
+            </div>
+            <button type="button" class="btn btn-outline-info btn-icon-text mr-2 d-none d-md-block">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-download btn-icon-prepend"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              Import
+            </button>
+            <button type="button" class="btn btn-outline-primary btn-icon-text mr-2 mb-2 mb-md-0">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-printer btn-icon-prepend"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+              Print
+            </button>
+            <button type="button" class="btn btn-primary btn-icon-text mb-2 mb-md-0"><i class="mdi mdi-discord"></i> Discord</button>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-xl-12 stretch-card">
+            <div class="row flex-grow">
+              <div class="col-md-4 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-baseline">
+                      <h6 class="card-title mb-0">New Customers</h6>
+                      <div class="dropdown mb-2">
+                        <button class="btn p-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal icon-lg text-muted pb-3px"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item d-flex align-items-center" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye icon-sm mr-2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg> <span class="">View</span></a>
+                          <a class="dropdown-item d-flex align-items-center" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-2 icon-sm mr-2"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg> <span class="">Edit</span></a>
+                          <a class="dropdown-item d-flex align-items-center" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash icon-sm mr-2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg> <span class="">Delete</span></a>
+                          <a class="dropdown-item d-flex align-items-center" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-printer icon-sm mr-2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg> <span class="">Print</span></a>
+                          <a class="dropdown-item d-flex align-items-center" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-download icon-sm mr-2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg> <span class="">Download</span></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-6 col-md-12 col-xl-5">
+                        <h3 class="mb-2">3,897</h3>
+                        <div class="d-flex align-items-baseline">
+                          <p class="text-success">
+                            <span>+3.3%</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-up icon-sm mb-1"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-6 col-md-12 col-xl-7">
+                        <div id="apexChart1" class="mt-md-3 mt-xl-0" style="min-height: 60px;"><div id="apexchartsws92zdwcg" class="apexcharts-canvas apexchartsws92zdwcg apexcharts-theme-light" style="width: 224px; height: 60px;"><svg id="SvgjsSvg1338" width="224" height="60" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" class="apexcharts-svg" xmlns:data="ApexChartsNS" transform="translate(0, 0)" style="background: transparent;"><g id="SvgjsG1340" class="apexcharts-inner apexcharts-graphical" transform="translate(0, 0)"><defs id="SvgjsDefs1339"><clipPath id="gridRectMaskws92zdwcg"><rect id="SvgjsRect1345" width="230" height="62" x="-3" y="-1" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clipPath><clipPath id="gridRectMarkerMaskws92zdwcg"><rect id="SvgjsRect1346" width="228" height="64" x="-2" y="-2" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clipPath></defs><line id="SvgjsLine1344" x1="0" y1="0" x2="0" y2="60" stroke="#b6b6b6" stroke-dasharray="3" class="apexcharts-xcrosshairs" x="0" y="0" width="1" height="60" fill="#b1b9c4" filter="none" fill-opacity="0.9" stroke-width="1"></line><g id="SvgjsG1352" class="apexcharts-xaxis" transform="translate(0, 0)"><g id="SvgjsG1353" class="apexcharts-xaxis-texts-g" transform="translate(0, -4)"></g></g><g id="SvgjsG1366" class="apexcharts-grid"><g id="SvgjsG1367" class="apexcharts-gridlines-horizontal" style="display: none;"><line id="SvgjsLine1369" x1="0" y1="0" x2="224" y2="0" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line><line id="SvgjsLine1370" x1="0" y1="10" x2="224" y2="10" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line><line id="SvgjsLine1371" x1="0" y1="20" x2="224" y2="20" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line><line id="SvgjsLine1372" x1="0" y1="30" x2="224" y2="30" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line><line id="SvgjsLine1373" x1="0" y1="40" x2="224" y2="40" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line><line id="SvgjsLine1374" x1="0" y1="50" x2="224" y2="50" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line><line id="SvgjsLine1375" x1="0" y1="60" x2="224" y2="60" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line></g><g id="SvgjsG1368" class="apexcharts-gridlines-vertical" style="display: none;"></g><line id="SvgjsLine1377" x1="0" y1="60" x2="224" y2="60" stroke="transparent" stroke-dasharray="0"></line><line id="SvgjsLine1376" x1="0" y1="1" x2="0" y2="60" stroke="transparent" stroke-dasharray="0"></line></g><g id="SvgjsG1347" class="apexcharts-line-series apexcharts-plot-series"><g id="SvgjsG1348" class="apexcharts-series" seriesName="seriesx1" data:longestSeries="true" rel="1" data:realIndex="0"><path id="SvgjsPath1351" d="M 0 26C 7.839999999999999 26 14.559999999999999 15 22.4 15C 30.24 15 36.96 29 44.8 29C 52.64 29 59.36 3 67.2 3C 75.03999999999999 3 81.75999999999999 48 89.6 48C 97.44 48 104.16 27 112 27C 119.84 27 126.56 49 134.4 49C 142.24 49 148.95999999999998 29 156.79999999999998 29C 164.64 29 171.35999999999999 14 179.2 14C 187.04 14 193.76 43 201.6 43C 209.44 43 216.16 27 224 27" fill="none" fill-opacity="1" stroke="rgba(114,124,245,0.85)" stroke-opacity="1" stroke-linecap="butt" stroke-width="2" stroke-dasharray="0" class="apexcharts-line" index="0" clip-path="url(#gridRectMaskws92zdwcg)" pathTo="M 0 26C 7.839999999999999 26 14.559999999999999 15 22.4 15C 30.24 15 36.96 29 44.8 29C 52.64 29 59.36 3 67.2 3C 75.03999999999999 3 81.75999999999999 48 89.6 48C 97.44 48 104.16 27 112 27C 119.84 27 126.56 49 134.4 49C 142.24 49 148.95999999999998 29 156.79999999999998 29C 164.64 29 171.35999999999999 14 179.2 14C 187.04 14 193.76 43 201.6 43C 209.44 43 216.16 27 224 27" pathFrom="M -1 3870L -1 3870L 22.4 3870L 44.8 3870L 67.2 3870L 89.6 3870L 112 3870L 134.4 3870L 156.79999999999998 3870L 179.2 3870L 201.6 3870L 224 3870"></path><g id="SvgjsG1349" class="apexcharts-series-markers-wrap" data:realIndex="0"><g class="apexcharts-series-markers"><circle id="SvgjsCircle1383" r="0" cx="0" cy="0" class="apexcharts-marker w8sf8wrjn no-pointer-events" stroke="#ffffff" fill="#727cf5" fill-opacity="1" stroke-width="2" stroke-opacity="0.9" default-marker-size="0"></circle></g></g></g><g id="SvgjsG1350" class="apexcharts-datalabels" data:realIndex="0"></g></g><line id="SvgjsLine1378" x1="0" y1="0" x2="224" y2="0" stroke="#b6b6b6" stroke-dasharray="0" stroke-width="1" class="apexcharts-ycrosshairs"></line><line id="SvgjsLine1379" x1="0" y1="0" x2="224" y2="0" stroke-dasharray="0" stroke-width="0" class="apexcharts-ycrosshairs-hidden"></line><g id="SvgjsG1380" class="apexcharts-yaxis-annotations"></g><g id="SvgjsG1381" class="apexcharts-xaxis-annotations"></g><g id="SvgjsG1382" class="apexcharts-point-annotations"></g></g><rect id="SvgjsRect1343" width="0" height="0" x="0" y="0" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fefefe"></rect><g id="SvgjsG1365" class="apexcharts-yaxis" rel="0" transform="translate(-18, 0)"></g><g id="SvgjsG1341" class="apexcharts-annotations"></g></svg><div class="apexcharts-legend" style="max-height: 30px;"></div><div class="apexcharts-tooltip apexcharts-theme-light"><div class="apexcharts-tooltip-series-group" style="order: 1;"><span class="apexcharts-tooltip-marker" style="background-color: rgb(114, 124, 245);"></span><div class="apexcharts-tooltip-text" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px;"><div class="apexcharts-tooltip-y-group"><span class="apexcharts-tooltip-text-label"></span><span class="apexcharts-tooltip-text-value"></span></div><div class="apexcharts-tooltip-z-group"><span class="apexcharts-tooltip-text-z-label"></span><span class="apexcharts-tooltip-text-z-value"></span></div></div></div></div><div class="apexcharts-yaxistooltip apexcharts-yaxistooltip-0 apexcharts-yaxistooltip-left apexcharts-theme-light"><div class="apexcharts-yaxistooltip-text"></div></div></div></div>
+                      <div class="resize-triggers"><div class="expand-trigger"><div style="width: 249px; height: 77px;"></div></div><div class="contract-trigger"></div></div><div class="resize-triggers"><div class="expand-trigger"><div style="width: 249px; height: 77px;"></div></div><div class="contract-trigger"></div></div><div class="resize-triggers"><div class="expand-trigger"><div style="width: 249px; height: 77px;"></div></div><div class="contract-trigger"></div></div><div class="resize-triggers"><div class="expand-trigger"><div style="width: 249px; height: 77px;"></div></div><div class="contract-trigger"></div></div></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-baseline">
+                      <h6 class="card-title mb-0">New Orders</h6>
+                      <div class="dropdown mb-2">
+                        <button class="btn p-0" type="button" id="dropdownMenuButton1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal icon-lg text-muted pb-3px"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton1">
+                          <a class="dropdown-item d-flex align-items-center" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye icon-sm mr-2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg> <span class="">View</span></a>
+                          <a class="dropdown-item d-flex align-items-center" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-2 icon-sm mr-2"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg> <span class="">Edit</span></a>
+                          <a class="dropdown-item d-flex align-items-center" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash icon-sm mr-2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg> <span class="">Delete</span></a>
+                          <a class="dropdown-item d-flex align-items-center" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-printer icon-sm mr-2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg> <span class="">Print</span></a>
+                          <a class="dropdown-item d-flex align-items-center" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-download icon-sm mr-2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg> <span class="">Download</span></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-6 col-md-12 col-xl-5">
+                        <h3 class="mb-2">35,084</h3>
+                        <div class="d-flex align-items-baseline">
+                          <p class="text-danger">
+                            <span>-2.8%</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-down icon-sm mb-1"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-6 col-md-12 col-xl-7">
+                        <div id="apexChart2" class="mt-md-3 mt-xl-0" style="min-height: 60px;"><div id="apexchartsjci5p7lef" class="apexcharts-canvas apexchartsjci5p7lef apexcharts-theme-light" style="width: 224px; height: 60px;"><svg id="SvgjsSvg1384" width="224" height="60" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" class="apexcharts-svg" xmlns:data="ApexChartsNS" transform="translate(0, 0)" style="background: transparent;"><g id="SvgjsG1386" class="apexcharts-inner apexcharts-graphical" transform="translate(0, 0)"><defs id="SvgjsDefs1385"><linearGradient id="SvgjsLinearGradient1389" x1="0" y1="0" x2="0" y2="1"><stop id="SvgjsStop1390" stop-opacity="0.4" stop-color="rgba(216,227,240,0.4)" offset="0"></stop><stop id="SvgjsStop1391" stop-opacity="0.5" stop-color="rgba(190,209,230,0.5)" offset="1"></stop><stop id="SvgjsStop1392" stop-opacity="0.5" stop-color="rgba(190,209,230,0.5)" offset="1"></stop></linearGradient><clipPath id="gridRectMaskjci5p7lef"><rect id="SvgjsRect1395" width="228" height="60" x="-2" y="0" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clipPath><clipPath id="gridRectMarkerMaskjci5p7lef"><rect id="SvgjsRect1396" width="228" height="64" x="-2" y="-2" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clipPath></defs><line id="SvgjsLine1394" x1="0" y1="0" x2="0" y2="60" stroke-dasharray="3" class="apexcharts-xcrosshairs" x="0" y="0" width="1" height="60" fill="url(#SvgjsLinearGradient1389)" filter="none" fill-opacity="0.9" stroke-width="0"></line><g id="SvgjsG1411" class="apexcharts-xaxis" transform="translate(0, 0)"><g id="SvgjsG1412" class="apexcharts-xaxis-texts-g" transform="translate(0, -4)"></g></g><g id="SvgjsG1425" class="apexcharts-grid"><g id="SvgjsG1426" class="apexcharts-gridlines-horizontal" style="display: none;"><line id="SvgjsLine1428" x1="0" y1="0" x2="224" y2="0" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line><line id="SvgjsLine1429" x1="0" y1="12" x2="224" y2="12" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line><line id="SvgjsLine1430" x1="0" y1="24" x2="224" y2="24" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line><line id="SvgjsLine1431" x1="0" y1="36" x2="224" y2="36" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line><line id="SvgjsLine1432" x1="0" y1="48" x2="224" y2="48" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line><line id="SvgjsLine1433" x1="0" y1="60" x2="224" y2="60" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line></g><g id="SvgjsG1427" class="apexcharts-gridlines-vertical" style="display: none;"></g><line id="SvgjsLine1435" x1="0" y1="60" x2="224" y2="60" stroke="transparent" stroke-dasharray="0"></line><line id="SvgjsLine1434" x1="0" y1="1" x2="0" y2="60" stroke="transparent" stroke-dasharray="0"></line></g><g id="SvgjsG1397" class="apexcharts-bar-series apexcharts-plot-series"><g id="SvgjsG1398" class="apexcharts-series" rel="1" seriesName="seriesx1" data:realIndex="0"><path id="SvgjsPath1400" d="M 4.072727272727273 60L 4.072727272727273 38.400000000000006L 16.29090909090909 38.400000000000006L 16.29090909090909 38.400000000000006L 16.29090909090909 60L 16.29090909090909 60z" fill="rgba(114,124,245,0.85)" fill-opacity="1" stroke-opacity="1" stroke-linecap="square" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskjci5p7lef)" pathTo="M 4.072727272727273 60L 4.072727272727273 38.400000000000006L 16.29090909090909 38.400000000000006L 16.29090909090909 38.400000000000006L 16.29090909090909 60L 16.29090909090909 60z" pathFrom="M 4.072727272727273 60L 4.072727272727273 60L 16.29090909090909 60L 16.29090909090909 60L 16.29090909090909 60L 4.072727272727273 60" cy="38.400000000000006" cx="24.436363636363637" j="0" val="36" barHeight="21.599999999999998" barWidth="12.218181818181817"></path><path id="SvgjsPath1401" d="M 24.436363636363637 60L 24.436363636363637 13.800000000000004L 36.654545454545456 13.800000000000004L 36.654545454545456 13.800000000000004L 36.654545454545456 60L 36.654545454545456 60z" fill="rgba(114,124,245,0.85)" fill-opacity="1" stroke-opacity="1" stroke-linecap="square" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskjci5p7lef)" pathTo="M 24.436363636363637 60L 24.436363636363637 13.800000000000004L 36.654545454545456 13.800000000000004L 36.654545454545456 13.800000000000004L 36.654545454545456 60L 36.654545454545456 60z" pathFrom="M 24.436363636363637 60L 24.436363636363637 60L 36.654545454545456 60L 36.654545454545456 60L 36.654545454545456 60L 24.436363636363637 60" cy="13.800000000000004" cx="44.8" j="1" val="77" barHeight="46.199999999999996" barWidth="12.218181818181817"></path><path id="SvgjsPath1402" d="M 44.8 60L 44.8 28.8L 57.018181818181816 28.8L 57.018181818181816 28.8L 57.018181818181816 60L 57.018181818181816 60z" fill="rgba(114,124,245,0.85)" fill-opacity="1" stroke-opacity="1" stroke-linecap="square" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskjci5p7lef)" pathTo="M 44.8 60L 44.8 28.8L 57.018181818181816 28.8L 57.018181818181816 28.8L 57.018181818181816 60L 57.018181818181816 60z" pathFrom="M 44.8 60L 44.8 60L 57.018181818181816 60L 57.018181818181816 60L 57.018181818181816 60L 44.8 60" cy="28.8" cx="65.16363636363636" j="2" val="52" barHeight="31.2" barWidth="12.218181818181817"></path><path id="SvgjsPath1403" d="M 65.16363636363636 60L 65.16363636363636 6L 77.38181818181818 6L 77.38181818181818 6L 77.38181818181818 60L 77.38181818181818 60z" fill="rgba(114,124,245,0.85)" fill-opacity="1" stroke-opacity="1" stroke-linecap="square" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskjci5p7lef)" pathTo="M 65.16363636363636 60L 65.16363636363636 6L 77.38181818181818 6L 77.38181818181818 6L 77.38181818181818 60L 77.38181818181818 60z" pathFrom="M 65.16363636363636 60L 65.16363636363636 60L 77.38181818181818 60L 77.38181818181818 60L 77.38181818181818 60L 65.16363636363636 60" cy="6" cx="85.52727272727272" j="3" val="90" barHeight="54" barWidth="12.218181818181817"></path><path id="SvgjsPath1404" d="M 85.52727272727272 60L 85.52727272727272 15.600000000000001L 97.74545454545454 15.600000000000001L 97.74545454545454 15.600000000000001L 97.74545454545454 60L 97.74545454545454 60z" fill="rgba(114,124,245,0.85)" fill-opacity="1" stroke-opacity="1" stroke-linecap="square" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskjci5p7lef)" pathTo="M 85.52727272727272 60L 85.52727272727272 15.600000000000001L 97.74545454545454 15.600000000000001L 97.74545454545454 15.600000000000001L 97.74545454545454 60L 97.74545454545454 60z" pathFrom="M 85.52727272727272 60L 85.52727272727272 60L 97.74545454545454 60L 97.74545454545454 60L 97.74545454545454 60L 85.52727272727272 60" cy="15.600000000000001" cx="105.89090909090908" j="4" val="74" barHeight="44.4" barWidth="12.218181818181817"></path><path id="SvgjsPath1405" d="M 105.89090909090908 60L 105.89090909090908 39L 118.1090909090909 39L 118.1090909090909 39L 118.1090909090909 60L 118.1090909090909 60z" fill="rgba(114,124,245,0.85)" fill-opacity="1" stroke-opacity="1" stroke-linecap="square" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskjci5p7lef)" pathTo="M 105.89090909090908 60L 105.89090909090908 39L 118.1090909090909 39L 118.1090909090909 39L 118.1090909090909 60L 118.1090909090909 60z" pathFrom="M 105.89090909090908 60L 105.89090909090908 60L 118.1090909090909 60L 118.1090909090909 60L 118.1090909090909 60L 105.89090909090908 60" cy="39" cx="126.25454545454544" j="5" val="35" barHeight="21" barWidth="12.218181818181817"></path><path id="SvgjsPath1406" d="M 126.25454545454544 60L 126.25454545454544 27L 138.47272727272724 27L 138.47272727272724 27L 138.47272727272724 60L 138.47272727272724 60z" fill="rgba(114,124,245,0.85)" fill-opacity="1" stroke-opacity="1" stroke-linecap="square" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskjci5p7lef)" pathTo="M 126.25454545454544 60L 126.25454545454544 27L 138.47272727272724 27L 138.47272727272724 27L 138.47272727272724 60L 138.47272727272724 60z" pathFrom="M 126.25454545454544 60L 126.25454545454544 60L 138.47272727272724 60L 138.47272727272724 60L 138.47272727272724 60L 126.25454545454544 60" cy="27" cx="146.6181818181818" j="6" val="55" barHeight="33" barWidth="12.218181818181817"></path><path id="SvgjsPath1407" d="M 146.6181818181818 60L 146.6181818181818 46.2L 158.83636363636361 46.2L 158.83636363636361 46.2L 158.83636363636361 60L 158.83636363636361 60z" fill="rgba(114,124,245,0.85)" fill-opacity="1" stroke-opacity="1" stroke-linecap="square" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskjci5p7lef)" pathTo="M 146.6181818181818 60L 146.6181818181818 46.2L 158.83636363636361 46.2L 158.83636363636361 46.2L 158.83636363636361 60L 158.83636363636361 60z" pathFrom="M 146.6181818181818 60L 146.6181818181818 60L 158.83636363636361 60L 158.83636363636361 60L 158.83636363636361 60L 146.6181818181818 60" cy="46.2" cx="166.98181818181817" j="7" val="23" barHeight="13.799999999999999" barWidth="12.218181818181817"></path><path id="SvgjsPath1408" d="M 166.98181818181817 60L 166.98181818181817 31.8L 179.2 31.8L 179.2 31.8L 179.2 60L 179.2 60z" fill="rgba(114,124,245,0.85)" fill-opacity="1" stroke-opacity="1" stroke-linecap="square" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskjci5p7lef)" pathTo="M 166.98181818181817 60L 166.98181818181817 31.8L 179.2 31.8L 179.2 31.8L 179.2 60L 179.2 60z" pathFrom="M 166.98181818181817 60L 166.98181818181817 60L 179.2 60L 179.2 60L 179.2 60L 166.98181818181817 60" cy="31.8" cx="187.34545454545454" j="8" val="47" barHeight="28.2" barWidth="12.218181818181817"></path><path id="SvgjsPath1409" d="M 187.34545454545454 60L 187.34545454545454 54L 199.56363636363636 54L 199.56363636363636 54L 199.56363636363636 60L 199.56363636363636 60z" fill="rgba(114,124,245,0.85)" fill-opacity="1" stroke-opacity="1" stroke-linecap="square" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskjci5p7lef)" pathTo="M 187.34545454545454 60L 187.34545454545454 54L 199.56363636363636 54L 199.56363636363636 54L 199.56363636363636 60L 199.56363636363636 60z" pathFrom="M 187.34545454545454 60L 187.34545454545454 60L 199.56363636363636 60L 199.56363636363636 60L 199.56363636363636 60L 187.34545454545454 60" cy="54" cx="207.70909090909092" j="9" val="10" barHeight="6" barWidth="12.218181818181817"></path><path id="SvgjsPath1410" d="M 207.70909090909092 60L 207.70909090909092 22.200000000000003L 219.92727272727274 22.200000000000003L 219.92727272727274 22.200000000000003L 219.92727272727274 60L 219.92727272727274 60z" fill="rgba(114,124,245,0.85)" fill-opacity="1" stroke-opacity="1" stroke-linecap="square" stroke-width="0" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskjci5p7lef)" pathTo="M 207.70909090909092 60L 207.70909090909092 22.200000000000003L 219.92727272727274 22.200000000000003L 219.92727272727274 22.200000000000003L 219.92727272727274 60L 219.92727272727274 60z" pathFrom="M 207.70909090909092 60L 207.70909090909092 60L 219.92727272727274 60L 219.92727272727274 60L 219.92727272727274 60L 207.70909090909092 60" cy="22.200000000000003" cx="228.0727272727273" j="10" val="63" barHeight="37.8" barWidth="12.218181818181817"></path></g><g id="SvgjsG1399" class="apexcharts-datalabels" data:realIndex="0"></g></g><line id="SvgjsLine1436" x1="0" y1="0" x2="224" y2="0" stroke="#b6b6b6" stroke-dasharray="0" stroke-width="1" class="apexcharts-ycrosshairs"></line><line id="SvgjsLine1437" x1="0" y1="0" x2="224" y2="0" stroke-dasharray="0" stroke-width="0" class="apexcharts-ycrosshairs-hidden"></line><g id="SvgjsG1438" class="apexcharts-yaxis-annotations"></g><g id="SvgjsG1439" class="apexcharts-xaxis-annotations"></g><g id="SvgjsG1440" class="apexcharts-point-annotations"></g></g><rect id="SvgjsRect1393" width="0" height="0" x="0" y="0" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fefefe"></rect><g id="SvgjsG1424" class="apexcharts-yaxis" rel="0" transform="translate(-18, 0)"></g><g id="SvgjsG1387" class="apexcharts-annotations"></g></svg><div class="apexcharts-legend" style="max-height: 30px;"></div><div class="apexcharts-tooltip apexcharts-theme-light"><div class="apexcharts-tooltip-series-group" style="order: 1;"><span class="apexcharts-tooltip-marker" style="background-color: rgb(114, 124, 245);"></span><div class="apexcharts-tooltip-text" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px;"><div class="apexcharts-tooltip-y-group"><span class="apexcharts-tooltip-text-label"></span><span class="apexcharts-tooltip-text-value"></span></div><div class="apexcharts-tooltip-z-group"><span class="apexcharts-tooltip-text-z-label"></span><span class="apexcharts-tooltip-text-z-value"></span></div></div></div></div><div class="apexcharts-yaxistooltip apexcharts-yaxistooltip-0 apexcharts-yaxistooltip-left apexcharts-theme-light"><div class="apexcharts-yaxistooltip-text"></div></div></div></div>
+                      <div class="resize-triggers"><div class="expand-trigger"><div style="width: 249px; height: 77px;"></div></div><div class="contract-trigger"></div></div><div class="resize-triggers"><div class="expand-trigger"><div style="width: 249px; height: 77px;"></div></div><div class="contract-trigger"></div></div><div class="resize-triggers"><div class="expand-trigger"><div style="width: 249px; height: 77px;"></div></div><div class="contract-trigger"></div></div><div class="resize-triggers"><div class="expand-trigger"><div style="width: 249px; height: 77px;"></div></div><div class="contract-trigger"></div></div></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-baseline">
+                      <h6 class="card-title mb-0">Growth</h6>
+                      <div class="dropdown mb-2">
+                        <button class="btn p-0" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal icon-lg text-muted pb-3px"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton2">
+                          <a class="dropdown-item d-flex align-items-center" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye icon-sm mr-2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg> <span class="">View</span></a>
+                          <a class="dropdown-item d-flex align-items-center" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-2 icon-sm mr-2"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg> <span class="">Edit</span></a>
+                          <a class="dropdown-item d-flex align-items-center" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash icon-sm mr-2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg> <span class="">Delete</span></a>
+                          <a class="dropdown-item d-flex align-items-center" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-printer icon-sm mr-2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg> <span class="">Print</span></a>
+                          <a class="dropdown-item d-flex align-items-center" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-download icon-sm mr-2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg> <span class="">Download</span></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-6 col-md-12 col-xl-5">
+                        <h3 class="mb-2">89.87%</h3>
+                        <div class="d-flex align-items-baseline">
+                          <p class="text-success">
+                            <span>+2.8%</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-up icon-sm mb-1"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-6 col-md-12 col-xl-7">
+                        <div id="apexChart3" class="mt-md-3 mt-xl-0" style="min-height: 60px;"><div id="apexchartshipi4xem" class="apexcharts-canvas apexchartshipi4xem apexcharts-theme-light" style="width: 224px; height: 60px;"><svg id="SvgjsSvg1442" width="224" height="60" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" class="apexcharts-svg" xmlns:data="ApexChartsNS" transform="translate(0, 0)" style="background: transparent;"><g id="SvgjsG1444" class="apexcharts-inner apexcharts-graphical" transform="translate(0, 0)"><defs id="SvgjsDefs1443"><clipPath id="gridRectMaskhipi4xem"><rect id="SvgjsRect1449" width="230" height="62" x="-3" y="-1" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clipPath><clipPath id="gridRectMarkerMaskhipi4xem"><rect id="SvgjsRect1450" width="228" height="64" x="-2" y="-2" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clipPath></defs><line id="SvgjsLine1448" x1="0" y1="0" x2="0" y2="60" stroke="#b6b6b6" stroke-dasharray="3" class="apexcharts-xcrosshairs" x="0" y="0" width="1" height="60" fill="#b1b9c4" filter="none" fill-opacity="0.9" stroke-width="1"></line><g id="SvgjsG1456" class="apexcharts-xaxis" transform="translate(0, 0)"><g id="SvgjsG1457" class="apexcharts-xaxis-texts-g" transform="translate(0, -4)"></g></g><g id="SvgjsG1470" class="apexcharts-grid"><g id="SvgjsG1471" class="apexcharts-gridlines-horizontal" style="display: none;"><line id="SvgjsLine1473" x1="0" y1="0" x2="224" y2="0" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line><line id="SvgjsLine1474" x1="0" y1="8.571428571428571" x2="224" y2="8.571428571428571" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line><line id="SvgjsLine1475" x1="0" y1="17.142857142857142" x2="224" y2="17.142857142857142" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line><line id="SvgjsLine1476" x1="0" y1="25.714285714285715" x2="224" y2="25.714285714285715" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line><line id="SvgjsLine1477" x1="0" y1="34.285714285714285" x2="224" y2="34.285714285714285" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line><line id="SvgjsLine1478" x1="0" y1="42.857142857142854" x2="224" y2="42.857142857142854" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line><line id="SvgjsLine1479" x1="0" y1="51.42857142857142" x2="224" y2="51.42857142857142" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line><line id="SvgjsLine1480" x1="0" y1="59.99999999999999" x2="224" y2="59.99999999999999" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line></g><g id="SvgjsG1472" class="apexcharts-gridlines-vertical" style="display: none;"></g><line id="SvgjsLine1482" x1="0" y1="60" x2="224" y2="60" stroke="transparent" stroke-dasharray="0"></line><line id="SvgjsLine1481" x1="0" y1="1" x2="0" y2="60" stroke="transparent" stroke-dasharray="0"></line></g><g id="SvgjsG1451" class="apexcharts-line-series apexcharts-plot-series"><g id="SvgjsG1452" class="apexcharts-series" seriesName="seriesx1" data:longestSeries="true" rel="1" data:realIndex="0"><path id="SvgjsPath1455" d="M 0 50.57142857142857C 7.839999999999999 50.57142857142857 14.559999999999999 47.14285714285714 22.4 47.14285714285714C 30.24 47.14285714285714 36.96 47.99999999999999 44.8 47.99999999999999C 52.64 47.99999999999999 59.36 46.285714285714285 67.2 46.285714285714285C 75.03999999999999 46.285714285714285 81.75999999999999 41.14285714285714 89.6 41.14285714285714C 97.44 41.14285714285714 104.16 39.42857142857142 112 39.42857142857142C 119.84 39.42857142857142 126.56 48.857142857142854 134.4 48.857142857142854C 142.24 48.857142857142854 148.95999999999998 22.285714285714285 156.79999999999998 22.285714285714285C 164.64 22.285714285714285 171.35999999999999 15.42857142857143 179.2 15.42857142857143C 187.04 15.42857142857143 193.76 15.42857142857143 201.6 15.42857142857143C 209.44 15.42857142857143 216.16 9.42857142857143 224 9.42857142857143" fill="none" fill-opacity="1" stroke="rgba(114,124,245,0.85)" stroke-opacity="1" stroke-linecap="butt" stroke-width="2" stroke-dasharray="0" class="apexcharts-line" index="0" clip-path="url(#gridRectMaskhipi4xem)" pathTo="M 0 50.57142857142857C 7.839999999999999 50.57142857142857 14.559999999999999 47.14285714285714 22.4 47.14285714285714C 30.24 47.14285714285714 36.96 47.99999999999999 44.8 47.99999999999999C 52.64 47.99999999999999 59.36 46.285714285714285 67.2 46.285714285714285C 75.03999999999999 46.285714285714285 81.75999999999999 41.14285714285714 89.6 41.14285714285714C 97.44 41.14285714285714 104.16 39.42857142857142 112 39.42857142857142C 119.84 39.42857142857142 126.56 48.857142857142854 134.4 48.857142857142854C 142.24 48.857142857142854 148.95999999999998 22.285714285714285 156.79999999999998 22.285714285714285C 164.64 22.285714285714285 171.35999999999999 15.42857142857143 179.2 15.42857142857143C 187.04 15.42857142857143 193.76 15.42857142857143 201.6 15.42857142857143C 209.44 15.42857142857143 216.16 9.42857142857143 224 9.42857142857143" pathFrom="M -1 85.71428571428571L -1 85.71428571428571L 22.4 85.71428571428571L 44.8 85.71428571428571L 67.2 85.71428571428571L 89.6 85.71428571428571L 112 85.71428571428571L 134.4 85.71428571428571L 156.79999999999998 85.71428571428571L 179.2 85.71428571428571L 201.6 85.71428571428571L 224 85.71428571428571"></path><g id="SvgjsG1453" class="apexcharts-series-markers-wrap" data:realIndex="0"><g class="apexcharts-series-markers"><circle id="SvgjsCircle1488" r="0" cx="0" cy="0" class="apexcharts-marker w1myaoqfo no-pointer-events" stroke="#ffffff" fill="#727cf5" fill-opacity="1" stroke-width="2" stroke-opacity="0.9" default-marker-size="0"></circle></g></g></g><g id="SvgjsG1454" class="apexcharts-datalabels" data:realIndex="0"></g></g><line id="SvgjsLine1483" x1="0" y1="0" x2="224" y2="0" stroke="#b6b6b6" stroke-dasharray="0" stroke-width="1" class="apexcharts-ycrosshairs"></line><line id="SvgjsLine1484" x1="0" y1="0" x2="224" y2="0" stroke-dasharray="0" stroke-width="0" class="apexcharts-ycrosshairs-hidden"></line><g id="SvgjsG1485" class="apexcharts-yaxis-annotations"></g><g id="SvgjsG1486" class="apexcharts-xaxis-annotations"></g><g id="SvgjsG1487" class="apexcharts-point-annotations"></g></g><rect id="SvgjsRect1447" width="0" height="0" x="0" y="0" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fefefe"></rect><g id="SvgjsG1469" class="apexcharts-yaxis" rel="0" transform="translate(-18, 0)"></g><g id="SvgjsG1445" class="apexcharts-annotations"></g></svg><div class="apexcharts-legend" style="max-height: 30px;"></div><div class="apexcharts-tooltip apexcharts-theme-light"><div class="apexcharts-tooltip-series-group" style="order: 1;"><span class="apexcharts-tooltip-marker" style="background-color: rgb(114, 124, 245);"></span><div class="apexcharts-tooltip-text" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px;"><div class="apexcharts-tooltip-y-group"><span class="apexcharts-tooltip-text-label"></span><span class="apexcharts-tooltip-text-value"></span></div><div class="apexcharts-tooltip-z-group"><span class="apexcharts-tooltip-text-z-label"></span><span class="apexcharts-tooltip-text-z-value"></span></div></div></div></div><div class="apexcharts-yaxistooltip apexcharts-yaxistooltip-0 apexcharts-yaxistooltip-left apexcharts-theme-light"><div class="apexcharts-yaxistooltip-text"></div></div></div></div>
+                      <div class="resize-triggers"><div class="expand-trigger"><div style="width: 249px; height: 77px;"></div></div><div class="contract-trigger"></div></div><div class="resize-triggers"><div class="expand-trigger"><div style="width: 249px; height: 77px;"></div></div><div class="contract-trigger"></div></div><div class="resize-triggers"><div class="expand-trigger"><div style="width: 249px; height: 77px;"></div></div><div class="contract-trigger"></div></div><div class="resize-triggers"><div class="expand-trigger"><div style="width: 249px; height: 77px;"></div></div><div class="contract-trigger"></div></div></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- row -->
+
+         <!-- row -->
+
+         <!-- row -->
+
+         <!-- row -->
+
+			</div>
+
+			<!-- partial:partials/_footer.html -->
+			<footer class="footer d-flex flex-column flex-md-row align-items-center justify-content-between">
+				<p class="text-muted text-center text-md-left">Copyright © 2021 <a href="https://zeusboost.io" target="_blank">ZeusBoost.io</a>. All rights reserved</p>
+				<p class="text-muted text-center text-md-left mb-0 d-none d-md-block">Handcrafted With <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart mb-1 text-primary ml-1 icon-small"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></p>
+			</footer>
+			<!-- partial -->
+		
+		</div>
+	</div>
+
+	<!-- core:js -->
+	<script src="../assets/vendors/core/core.js"></script>
+	<!-- endinject -->
+  <!-- plugin js for this page -->
+  <script src="../assets/vendors/chartjs/Chart.min.js"></script>
+  <script src="../assets/vendors/jquery.flot/jquery.flot.js"></script>
+  <script src="../assets/vendors/jquery.flot/jquery.flot.resize.js"></script>
+  <script src="../assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+  <script src="../assets/vendors/apexcharts/apexcharts.min.js"></script>
+  <script src="../assets/vendors/progressbar.js/progressbar.min.js"></script>
+	<!-- end plugin js for this page -->
+	<!-- inject:js -->
+	<script src="../assets/vendors/feather-icons/feather.min.js"></script>
+	<script src="../assets/js/template.js"></script>
+	<!-- endinject -->
+  <!-- custom js for this page -->
+  <script src="../assets/js/dashboard.js"></script>
+  <script src="../assets/js/datepicker.js"></script>
+	<!-- end custom js for this page -->
+
+    
+<svg id="SvgjsSvg1001" width="2" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" style="overflow: hidden; top: -100%; left: -100%; position: absolute; opacity: 0;"><defs id="SvgjsDefs1002"></defs><polyline id="SvgjsPolyline1003" points="0,0"></polyline><path id="SvgjsPath1004" d="M0 0 "></path></svg>
+<svg id="SvgjsSvg1001" width="2" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" style="overflow: hidden; top: -100%; left: -100%; position: absolute; opacity: 0;"><defs id="SvgjsDefs1002"></defs><polyline id="SvgjsPolyline1003" points="0,0"></polyline><path id="SvgjsPath1004" d="M0 0 "></path></svg>
+
+<svg id="SvgjsSvg1001" width="2" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" style="overflow: hidden; top: -100%; left: -100%; position: absolute; opacity: 0;"><defs id="SvgjsDefs1002"></defs><polyline id="SvgjsPolyline1003" points="0,0"></polyline><path id="SvgjsPath1004" d="M0 0 "></path></svg>
+<svg id="SvgjsSvg1001" width="2" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" style="overflow: hidden; top: -100%; left: -100%; position: absolute; opacity: 0;"><defs id="SvgjsDefs1002"></defs><polyline id="SvgjsPolyline1003" points="0,0"></polyline><path id="SvgjsPath1004" d="M0 0 "></path></svg></body>
