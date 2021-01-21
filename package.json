@@ -30,6 +30,7 @@
     "flot.curvedlines": "^1.1.1",
     "font-awesome": "^4.7.0",
     "fullcalendar": "^5.5.0",
+    "gulp-cli": "^2.3.0",
     "gulp-sourcemaps": "^3.0.0",
     "inputmask": "^5.0.5",
     "jquery": "^3.5.1",
